@@ -1,0 +1,26 @@
+  <!doctype html>
+  <html lang="en">
+      <head>
+          <meta charset="utf-8">        
+          <meta name="viewport" content="width = device-width, initial-scale = 1">
+          <title>JavaScript Paint App</title>
+          <link rel="stylesheet" type="text/css" href="css.css">
+         
+          
+      </head>
+      <body>
+          <div class="wrapper">
+   
+              <div class="toolbar">
+                  <a href="#" id="brush" onmousedown="brushcall()"><img src="brush-icon.png"></a>
+                  <a href="#" id="line" onmousedown="linecall()" ><img src="line-icon.png"></a>
+                  <a href="#" id="rectangle" onmousedown="rectcall()"><img src="rectangle-icon.png"></a>
+                  <a href="#" id="circle" onmousedown="circlecall()"><img src="circle-icon.png"></a>
+                  <a href="#" id="clear" onmousedown="clearcall()"><img src="clear-icon.png"></a>
+                  </div><br> 
+  <canvas id="my-canvas" width="600" height="600"></canvas>
+   
+          </div>
+          <script src="js.js"></script>
+      </body>
+  </html>
